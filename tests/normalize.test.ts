@@ -1,6 +1,6 @@
 import assert from 'node:assert';
 import { test } from 'node:test';
-import { normalizeActions, normalizeReportToVerdict } from '../lib/mirofish/normalize.ts';
+import { normalizeActions, normalizeReportToVerdict } from '../lib/mirofish/normalize';
 
 test('normalizeActions converts raw MiroFish detail into typed ActionLogItem array', () => {
   const rawDetail = {
